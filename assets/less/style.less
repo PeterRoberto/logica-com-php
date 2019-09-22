@@ -1,0 +1,217 @@
+@color_1: #fff;
+
+header {
+	background: #f2f2f2;
+	text-align: center;
+	padding: 40px 0;
+
+	nav {
+
+		ul {
+			display: flex;
+		    justify-content: center;
+		    align-items: center;
+		}
+	}
+}
+
+
+form {
+	margin: 40px 0;
+
+	.form-control {
+		background: #f2f2f2;
+	    border: none;
+	    box-shadow: none;
+	    padding: 23px 12px;
+	    margin-bottom: 20px;
+
+	    &:focus {
+	    	outline: 0;
+    	    border-color: 0;
+    	    box-shadow: none;
+	    }
+	}
+
+	.btn-sub {
+		background: #984947;
+	    padding: 11px 37px;
+	    border: none;
+	    box-shadow: none;
+	    border-radius: 8px;
+	    color: #fff;
+	    text-transform: uppercase;
+	    font-weight: bold;
+
+	    &:focus {
+	    	outline: 0;
+	    	border-color: 0;
+    	    box-shadow: none;
+	    }
+
+	    &:hover {
+	    	background: #f00;
+	    }
+	}
+}
+
+
+
+
+
+footer {
+	background: #f2f2f2;
+	text-align: center;
+	padding: 40px 0;
+}
+
+
+
+
+// Mensagens do Formulário
+.principal {
+	background: #f00;
+	padding: 60px 0;
+	text-align: center;
+}
+
+
+.alert-sucess {
+	padding: 10px;
+	text-align: center;
+	background: #6ee06e;
+	color: @color_1;
+	font-weight: bold;
+	border-radius: 15px;
+	margin: 30px 0;
+}
+
+
+
+.alert-danger {
+	padding: 10px;
+	text-align: center;
+	background: #f00;
+	color: @color_1;
+	font-weight: bold;
+	border-radius: 15px;
+	margin: 30px 0;
+}
+
+
+
+
+
+// Agenda Compromissos
+.agenda-compromissos {
+
+	.box-agenda-compromoissos {
+
+		#accordion {
+
+			a {
+			    color: #337ab7;
+			    text-decoration: none;
+			    width: 100%;
+			    background: #4c8bdb ;
+			    display: block;
+			    padding: 13px 10px;
+			    color: #fff;
+			    font-size: 14px;
+			    font-weight: 700;
+			}
+		}
+	}
+}
+
+
+
+
+
+
+// PÁGINA DE LOGIN
+@color_1: #b938b0;
+@color_2: white;
+@font_family_1: "Raleway", sans-serif;
+@font_family_2: "Raleway Thin", sans-serif;
+@font_family_3: "Raleway SemiBold", sans-serif;
+
+a {
+	text-decoration: none;
+}
+
+label {
+	font-family: @font_family_1;
+	font-size: 11pt;
+}
+#forgot-pass {
+	color: @color_1;
+	font-family: @font_family_1;
+	font-size: 10pt;
+	margin-top: 3px;
+	text-align: right;
+}
+#modal {
+	background: #ebebeb;
+	border-radius: 8px;
+	box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.65);
+	height: 410px;
+	margin: 6rem auto 8.1rem auto;
+	width: 329px;
+}
+#modal-content {
+	padding: 12px 44px;
+}
+#modal-title {
+	font-family: @font_family_2;
+	letter-spacing: 4px;
+	padding-bottom: 23px;
+	padding-top: 13px;
+	text-align: center;
+}
+#signup {
+	color: @color_1;
+	font-family: @font_family_1;
+	font-size: 10pt;
+	margin-top: 16px;
+	text-align: center;
+}
+#submit-btn {
+	background: -webkit-linear-gradient(right, #4f25db, #b938b0);
+	border: none;
+	border-radius: 21px;
+	box-shadow: 0px 1px 8px #7D38B9;
+	cursor: pointer;
+	color: @color_2;
+	font-family: @font_family_3;
+	height: 42.3px;
+	margin: 0 auto;
+	margin-top: 50px;
+	transition: 0.25s;
+	width: 153px;
+	&:hover {
+		box-shadow: 0px 1px 18px #7D38B9;
+	}
+}
+.form {
+	align-items: left;
+	display: flex;
+	flex-direction: column;
+}
+.form-border {
+	background: -webkit-linear-gradient(right, #6139e8, #b938b0);
+	height: 1px;
+	width: 100%;
+}
+.form-content {
+	background: #ebebeb;
+	border: none;
+	outline: none;
+	padding-top: 14px;
+}
+.underline-title {
+	background: -webkit-linear-gradient(right, #6139e8, #bd2d86);
+	height: 2px;
+	margin: -1.1rem auto 0 auto;
+	width: 89px;
+}
