@@ -20,6 +20,14 @@ if($funcao == "soma") {
     $tabuA = $_POST["tabu_a"];
     echo tabuada($tabuA);
     // TABUADA
+}  elseif($funcao == "salario") {
+    $nome = $_POST["nome"];
+    $idade = $_POST["idade"];
+    $cargo= $_POST["cargo"];
+    $salario = $_POST["salario"];
+
+    
+    echo salarioLiquidoFinal($nome, $idade, $cargo, $salario);
 }
 
 

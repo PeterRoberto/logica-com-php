@@ -23,7 +23,6 @@ $funcao = $_POST["funcao"];
                             </div>
 
                             <div class="col-md-12">
-                            <input type="text" name="funcao" value="<?php echo $funcao; ?>">
                                 <button type="submit" value="Enviar" name="btn-enviar" style="background: green; border: none; color: #fff; padding: 7px 20px; font-weight: bold; font-size: 16px; text-transform: uppercase; margin-top: 15px;">Enviar</button>
                             </div>
                         </div>
@@ -67,6 +66,34 @@ $funcao = $_POST["funcao"];
                         <div class="row">
                             <div class="col-md-12">
                                 <input type="text"  name="tabu_a" value="" placeholder="Primeira Nota" style="width: 100%; border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;">
+                            </div>
+
+                            <div class="col-md-12">
+                                <button type="submit" value="Enviar" name="btn-enviar" style="background: green; border: none; color: #fff; padding: 7px 20px; font-weight: bold; font-size: 16px; text-transform: uppercase; margin-top: 15px;">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <?php 
+            } elseif($funcao == "salario") {
+                ?>
+                <!-- SALÁRIO -->
+                <div class="form-default form-media" style="display: flex; flex-direction: column; margin-bottom: 40px;">
+                    <span style="font-weight: bold; text-align: center; text-transform: uppercase; font-size: 30px;">SALÁRIO</span>
+                    <form action="resposta.php" method="post" style="margin-top: 30px;">
+                        <input type="hidden" name="funcao" value="<?php echo $funcao; ?>">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <input type="text"  name="nome" value="" placeholder="Nome" style="width: 100%; border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px; margin-bottom: 20px;">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text"  name="idade" value="" placeholder="Idade" style="width: 100%; border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px; margin-bottom: 20px;">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text"  name="cargo" value="" placeholder="Cargo" style="width: 100%; border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;">
+                            </div>
+                            <div class="col-md-6">
+                                <input type="text"  name="salario" value="" placeholder="Salário Bruto" style="width: 100%; border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;">
                             </div>
 
                             <div class="col-md-12">

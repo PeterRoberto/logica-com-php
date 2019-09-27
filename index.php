@@ -17,6 +17,8 @@
                                 <input type="radio"  name="funcao" value="media" placeholder="Primeiro Número" style="border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;"> Média
                                 <input type="radio"  name="funcao" value="soma" placeholder="Primeiro Número" style="border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;"> Soma
                                 <input type="radio"  name="funcao" value="tabuada" placeholder="Primeiro Número" style="border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;"> Tabuada
+                                <input type="radio"  name="funcao" value="salario" placeholder="Salário" style="border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;"> Salário
+
                             </div>
 
                             <div class="col-md-12">
