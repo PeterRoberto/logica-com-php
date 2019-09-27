@@ -20,6 +20,8 @@ function tabuada($valor) {
     }
 }
 
+
+
 // Função chegar no SALÁRIO LÍQUIDO
 function salarioLiquidoFinal($name1, $age1, $charge1, $salary1) {
 
@@ -31,7 +33,7 @@ function salarioLiquidoFinal($name1, $age1, $charge1, $salary1) {
     $salarioliquido = ($somaparcial - $desconto); // A variável $salarioliquido recebe o resultado do salário total menos o desconto de 15% que está guardado na variável $desconto
 
 
-    echo "Salário bruto: " . "R$".$somaparcial;
+    echo "Salário bruto: " . "R$".$salary1;
     echo "<br>";
     echo "<br>";
 
