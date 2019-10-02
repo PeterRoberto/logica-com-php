@@ -26,8 +26,12 @@ if($funcao == "soma") {
     $cargo= $_POST["cargo"];
     $salario = $_POST["salario"];
 
-    
     echo salarioLiquidoFinal($nome, $idade, $cargo, $salario);
+} elseif($funcao == "vida") {
+    $age = $_POST["anos"];
+    $months = $_POST["meses"];
+    $days = $_POST["dias"];
+    echo diasdevida($age, $months, $days);
 }
 
 

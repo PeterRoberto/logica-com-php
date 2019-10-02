@@ -103,6 +103,33 @@ $funcao = $_POST["funcao"];
                     </form>
                 </div>
                 <?php 
+            } if($funcao == "vida") {
+                ?>
+                <!-- SOMA -->
+                <div class="form-default form-soma" style="display: flex; flex-direction: column; margin-bottom: 40px;">
+                    <span style="font-weight: bold; text-align: center; text-transform: uppercase; font-size: 30px;">DIAS DE VIDA</span>
+                    <form action="resposta.php" method="post" style="margin-top: 30px;">
+                        <input type="hidden" name="funcao" value="<?php echo $funcao; ?>">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <input type="text"  name="anos" value="" placeholder="Idade em anos (ex: 32)" style="width: 100%; border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;">
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="text"  name="meses" value="" placeholder="Quantos meses de vida (ex: 2) " style="width: 100%; border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;"> 
+                            </div>
+
+                            <div class="col-md-4">
+                                <input type="text"  name="dias" value="" placeholder="Dias de vida (100)" style="width: 100%; border: 2px solid #000; border-radius: 5px; outline: 0; padding: 10px;"> 
+                            </div>
+
+                            <div class="col-md-12">
+                                <button type="submit" value="Enviar" name="btn-enviar" style="background: green; border: none; color: #fff; padding: 7px 20px; font-weight: bold; font-size: 16px; text-transform: uppercase; margin-top: 15px;">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <?php
             }
         ?>
     </div>
